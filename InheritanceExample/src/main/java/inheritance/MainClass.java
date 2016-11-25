@@ -5,7 +5,10 @@ public class MainClass {
 		Animal animal = new Animal();
 		Bird bird = new Bird();
 		Dog dog = new Dog();
-		
+        Dog bullDog = new BullDog();
+
+        String name = Animal.name;
+
 		System.out.println();
 		
 		animal.sleep();
@@ -16,7 +19,10 @@ public class MainClass {
 		
 		dog.sleep();
 		dog.eat();
-		
+
+        bullDog.sleep();
+        bullDog.eat();
+
 		Animal a1 = new Dog();
 		Animal a2 = new Bird();
 		

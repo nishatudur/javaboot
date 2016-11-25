@@ -1,9 +1,15 @@
 package main.java.inheritance;
 
 public class Animal {
+    static String name = "Animal";
+    int height;
+    int weight;
+
 	public Animal() {
 		System.out.println("A new animal has been created!");
-	}
+        height = 0;
+        weight = 0;
+    }
 	
 	public void sleep() {
 		System.out.println("An animal sleeps...");
